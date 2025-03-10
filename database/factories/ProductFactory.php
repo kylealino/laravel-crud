@@ -18,9 +18,7 @@ class ProductFactory extends Factory
     public function definition(): array
     {
         return [
-            'name' => $this->faker->word, // Generates a random word for the product name
-            'category' => $this->faker->sentence, // Random sentence for the product description
-            'description' => $this->faker->sentence, // Random sentence for the product description
+
         ];
     }
 }
