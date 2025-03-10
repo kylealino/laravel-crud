@@ -34,6 +34,13 @@ Video Player Component:
 Please ensure you update the .env file with your local MySQL password for proper database connectivity.
 Seeding Database:
 
+To run the project, run the following commands:
+
+-npm install
+-npm run dev
+-php artisan serve
+
+
 To populate the database with the initial 20 product records, run the following command:
 
 php artisan db:seed --class=ProductTableSeeder
