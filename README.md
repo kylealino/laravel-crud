@@ -55,6 +55,16 @@ php artisan key:generate
 npm run dev
 
 ```
+## Setup your mysql privileges to run it into your localhost
+
+```bash
+sudo mysql
+
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'm3passw0rd' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+
+```
+
 ## create new terminal
 
 ```bash
