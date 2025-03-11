@@ -75,3 +75,10 @@ php artisan serve
 
 ```bash
 php artisan db:seed --class=ProductTableSeeder
+
+```
+## if error after seeding occurs, kindly perform this command:
+
+```bash
+php artisan migrate
+```
