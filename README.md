@@ -43,11 +43,25 @@ Please ensure you update the `.env` file with your local MySQL password for prop
 
 ```bash
 npm install
+composer install
+
+```
+## rename .env.example to .env
+
+## put your localhost password in DB_PASSWORD in .env
+
+```bash
+php artisan key:generate
 npm run dev
+
+```
+## create new terminal
+
+```bash
 php artisan serve
 
 ```
 ## To populate the database with the initial 20 product records, run the following command:
 
 ```bash
-php artisan db:seed --class=ProductTableSeeder
+php artisan db:seed --class=ProductTableSeeder0
