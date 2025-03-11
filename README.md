@@ -46,9 +46,9 @@ npm install
 composer install
 
 ```
-## rename .env.example to .env
+## Rename .env.example to .env
 
-## put your localhost password in DB_PASSWORD in .env
+## Put your localhost password in DB_PASSWORD in .env
 
 ```bash
 php artisan key:generate
@@ -65,7 +65,7 @@ FLUSH PRIVILEGES;
 
 ```
 
-## create new terminal
+## Sreate new terminal
 
 ```bash
 php artisan serve
