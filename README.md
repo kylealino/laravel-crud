@@ -60,7 +60,7 @@ npm run dev
 ```bash
 sudo mysql
 
-GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'm3passw0rd' WITH GRANT OPTION;
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'localhost' IDENTIFIED BY 'your_local_password' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 
 ```
@@ -74,4 +74,4 @@ php artisan serve
 ## To populate the database with the initial 20 product records, run the following command:
 
 ```bash
-php artisan db:seed --class=ProductTableSeeder0
+php artisan db:seed --class=ProductTableSeeder
